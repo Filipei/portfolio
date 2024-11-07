@@ -1,0 +1,504 @@
+.geral{
+    background-color: #272727 ;
+    display: flex;
+    color: #bdbdbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containereu{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 800px;
+    background-color: #414141;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dentroeu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerport{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 1300px;
+    height: 800px;
+    background-color: #414141;
+    border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.containerport::-webkit-scrollbar {
+    display: none;
+}
+.minhafoto{
+    width: 120px;
+    border-radius: 30%;
+    filter: drop-shadow(2px 2px 20px orange);
+}
+.imagem{
+    margin-top: 40px;
+}
+.developer{
+    background-color: #4f4f4f;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#language{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: orange;
+    text-shadow: 0px 0px 80px orange;
+}
+.contact{
+    margin-top: 20px;
+    border-top: 1px solid #898989;
+    display:flex;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 50px;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: orange;
+    background-color: #4f4f4f;
+}
+.email{
+    display: flex;
+    margin-top: -20px;
+}
+.textemail{
+    margin-left: 10px;
+}
+.textemail{
+    display: flex;
+    flex-direction: column;
+
+}
+#resulemail{
+    margin-top: -14px;
+}
+.emailtext{
+    margin-top: 26px;
+    color: #898989;
+}
+.phone{
+    display: flex;
+}
+.instagram{
+    display: flex;
+}
+.nascimento{
+    display:flex ;
+}
+.iconlinks{
+    width: 70px;
+    height: 70px;
+    background-color:#4f4f4f ;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+#linkani:hover{
+    filter: drop-shadow(2px 2px 20px orange);
+    transition: filter 0.5s ease-in-out;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#gitani:hover{
+    filter: drop-shadow(2px 2px 20px #d37224);
+    transition: filter 0.5s ease-in-out;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#zapani:hover{
+    filter: drop-shadow(2px 2px 20px #b95511);
+    transition: filter 0.5s ease-in-out;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    transition: 0.5s ease;
+}
+.navul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    list-style: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #272727;
+    filter: opacity(0.8);
+    
+}
+.navli{
+    margin-top: 5px;
+}
+.nav:before + .navul{
+    opacity: 0.5;
+}
+#sobre{
+    margin-left: -30px;
+}
+#portfolio{
+    margin-right: 17px;
+}
+.navli{
+    font-size: 20px;
+}
+#sobre:hover{
+    filter: drop-shadow(2px 2px 20px orange);
+    transition: filter 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#formacao:hover{
+    filter: drop-shadow(2px 2px 20px orange);
+    transition: filter 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#portfolio:hover{
+    filter: drop-shadow(2px 2px 20px orange);
+    transition: filter 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.textosobre{
+    color: white;
+    margin-left: 120px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#sobremim{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 22px;
+}
+.sobremimtext{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    text-align: left;
+}
+.tex{
+    margin-top: 20px;
+}
+#program{
+    filter: drop-shadow(2px 2px 20px orange)
+}
+#sobremim{
+    margin-top: 30px;
+}
+#textosobre{
+    list-style: circle;
+}
+.listrasobre{
+    background-color: orange;
+    width: 300px;
+    height: 10px;
+    margin-top: -20px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+.formacao{
+    display: flex;
+    margin-top: 50px;
+}
+.curso{
+    margin-left: 40px;
+    color: white;
+}
+#rediform{
+    transition: 0.5s;
+}
+#rediport{
+    margin-right: 10px;
+}
+.portfolio{
+    display: flex;
+    margin-top: -50px;
+}
+.cards{
+    width: 1100px;
+    height: 950px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8.5%;
+    margin-top:30px;
+    flex-wrap: wrap;
+}
+.portifoliocima{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px orange);
+    transition: 0.9s;
+}
+.card2{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px #960018);
+    transition: 0.9s;
+}
+.card3{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px #000080);
+    transition: 0.9s;
+}
+.card4{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px #808080);
+    transition: 0.9s;
+}
+.card5{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px rgb(0, 127, 127));
+    transition: 0.9s;
+}
+.card6{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #272727;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 20px #e35040);
+    transition: 0.9s;
+}
+#gitwhite{
+    background-color: #808080;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#gitbluecyan{
+        background-color: rgb(0, 127, 127);
+        color: white;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.fotocard{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+#text{
+    margin-top: 40px;
+    text-align: center;
+}
+#texto{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+.butao{
+    display: flex;
+    width: 210px;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#gitorange{
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#gitorange:hover {
+    background-color: #696969;
+    transform: scale(1.1);
+}
+
+#gitorange:active {
+    transform: scale(0.9);
+}
+#gitred{
+    background-color: #960018;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#gitred:hover {
+    background-color: #696969;
+    transform: scale(1.1);
+}
+
+#gitred:active {
+    transform: scale(0.9);
+}
+#gitblue{
+    background-color: #000080;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#gitsalmao{
+    background-color: #e35040;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#gitblue:hover {
+    background-color: #696969;
+    transform: scale(1.1);
+}
+#gitbluecyan:hover {
+    background-color: #696969;
+    transform: scale(1.1);
+}
+
+#gitblue:active {
+    transform: scale(0.9);
+}
+#gitwhite:hover{
+    transform: scale(1.1);
+    background-color: #606060;
+}
+#gitsalmao:hover{
+    transform: scale(1.1);
+    background-color: #606060;
+}
+.card1:hover{
+    transition: 0.5s;
+    background-color: orange;
+    color: white;
+    transform: scale(1.1);
+}
+.card2:hover{   
+    transition: 0.5s;
+    background-color: #960018;
+    color: white;
+    transform: scale(1.1);
+}
+.card3:hover{
+    transition: 0.5s;
+    background-color: #000080;
+    color: white;
+    transform: scale(1.1);
+}
+.card4:hover{
+    transition: 0.5s;
+    background-color: #808080;
+    color: white;
+    transform: scale(1.1);
+}
+.card5:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 127, 127) ;
+    color: white;
+    transform: scale(1.1);
+}
+.card6:hover{
+    transition: 0.5s;
+    background-color:#e35040 ;
+    color: white;
+    transform: scale(1.1);
+}
+h3{
+    color: white;
+    filter: drop-shadow(2px, 2px, 20px white);
+}
